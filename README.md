@@ -1,2 +1,2 @@
 # Community-Feedback-Portal
-This a Community Feedback Portal page developed using frontend development.
+This a Community Feedback Portal page developed using Frontend development.
