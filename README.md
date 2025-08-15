@@ -38,13 +38,6 @@ screenshot.png # Project screenshot (add your own)
 
 ---
 
-## 📜 License
-This project is licensed under the **MIT License** 
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
-
----
-
 ## 🛠️ Technologies Used
 - **HTML5** – Structure and form elements  
 - **CSS3** – Responsive design, dark mode, and theme colors  
@@ -58,4 +51,12 @@ This project is licensed under the **MIT License**
 - Store feedback in a **database** (Firebase, MongoDB, etc.)  
 - Add **admin dashboard** for moderation and analytics  
 - Enable **email notifications** for new feedback  
-- Implement **leaderboard** for top contributors  
+- Implement **leaderboard** for top contributors
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License** 
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
+
