@@ -56,8 +56,6 @@ screenshot.png # Project screenshot (add your own)
 ---
 
 ## 📜 License
-This project is licensed under the **MIT License** 
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
+This project is licensed under the **MIT License** - [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
 
 ---
