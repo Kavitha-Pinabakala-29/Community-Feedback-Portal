@@ -4,6 +4,9 @@
 An advanced, interactive **feedback collection platform** with multi-language support, customizable themes, voice input, and live sentiment analysis.  
 Designed for communities, events, and organizations to easily collect, view, and analyze user feedback in real time.  
 
+## 📜 License
+This project is licensed under the **MIT License** –[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
+
 [![GIVE FEEDBACK](https://img.shields.io/badge/GIVE%20FEEDBACK-Click%20Here-blue?style=for-the-badge)](https://kavitha-pinabakala-29.github.io/Community-Feedback-Portal/)  
 
 ---
@@ -41,11 +44,6 @@ screenshot.png # Project screenshot (add your own)
 - **JavaScript (Vanilla)** – Form logic, validation, dark mode, color picker  
 - **Chart.js** – Sentiment analysis visualization  
 - **SpeechRecognition API** – Voice-to-text feedback input  
-
----
-
-## 📜 License
-This project is licensed under the **MIT License** – [View License](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
 
 ---
 
