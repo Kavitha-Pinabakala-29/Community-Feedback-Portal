@@ -22,10 +22,11 @@ Designed for communities, events, and organizations to easily collect, view, and
 ---
 
 ## 📂 Project Structure
-├── index.html # Main HTML file
-├── style.css # Styles and dark mode/theme settings
-├── script.js # Feedback form logic, validation, and interactions
-├── chart.js # Chart.js configuration for sentiment analysis
-└── screenshot.png # Project screenshot (add your own)
+index.html # Main HTML file
+style.css # Styles and dark mode/theme settings
+script.js # Feedback form logic, validation, and interactions
+chart.js # Chart.js configuration for sentiment analysis
+screenshot.png # Project screenshot (add your own)
 
-
+## 📸 Screenshot
+![Enhanced Feedback Portal Screenshot](Screenshot.png)
