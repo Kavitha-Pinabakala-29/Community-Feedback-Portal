@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enhanced Feedback Portal</title>
+  <!-- <link rel="stylesheet" href="style.css" /> -->
+  <link rel="language-switcher" href="languages.html" />
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/speech-recognition"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body id="fbody">
+  <!-- Header -->
+  <h1> Enhanced Feedback Portal</h1>
+
+  <!-- Theme and Language Switchers -->
+  <button id="theme-toggle">🌙 Toggle Dark Mode</button><br>
+  <p><label for="color-picker" style="display: flex;"><input type="color" id="color-picker" style="width:5px;height:5px"/>🎨 Choose Theme Color:  </label></p>
+
+
+  <label for="language-switcher">🌍 Choose Your Language:</label>
+  <select id="language-switcher">
+    <!-- General Languages -->
+    <optgroup label="🌍 General Languages">
+    <option value="">Select a Language</option>
+    <option value="en">English</option>
+    <option value="es">Español (Spanish)</option>
+    <option value="fr">Français (French)</option>
+    <option value="zh">中文 (Chinese)</option>
+    <option value="hi">हिन्दी (Hindi)</option>
+    <option value="ar">العربية (Arabic)</option>
+    <option value="pt">Português (Portuguese)</option>
+    <option value="ru">Русский (Russian)</option>
+    <option value="ja">日本語 (Japanese)</option>
+    <option value="de">Deutsch (German)</option>
+  
+    <!-- African Languages -->
+    <optgroup label="🌍 African Languages">
+      <option value="sw">Kiswahili (Swahili)</option>
+      <option value="am">አማርኛ (Amharic)</option>
+      <option value="yo">Yorùbá (Yoruba)</option>
+      <option value="ha">Hausa (Hausa)</option>
+      <option value="zu">IsiZulu (Zulu)</option>
+      <option value="ig">Igbo (Igbo)</option>
+      <option value="xh">isiXhosa (Xhosa)</option>
+      <option value="rw">Kinyarwanda (Rwanda)</option>
+      <option value="lg">Luganda (Ganda)</option>
+    </optgroup>
+  
+    <!-- Indian Languages -->
+    <optgroup label="🇮🇳 Indian Languages">
+      <option value="te">తెలుగు (Telugu)</option>
+      <option value="ta">தமிழ் (Tamil)</option>
+      <option value="bn">বাংলা (Bengali)</option>
+      <option value="pa">ਪੰਜਾਬੀ (Punjabi)</option>
+      <option value="ml">മലയാളം (Malayalam)</option>
+      <option value="kn">ಕನ್ನಡ (Kannada)</option>
+      <option value="mr">मराठी (Marathi)</option>
+      <option value="gu">ગુજરાતી (Gujarati)</option>
+      <option value="ur">اردو (Urdu)</option>
+      <option value="or">ଓଡ଼ିଆ (Odia)</option>
+      <option value="as">অসমীয়া (Assamese)</option>
+      <option value="ne">नेपाली (Nepali)</option>
+      <option value="si">සිංහල (Sinhala)</option>
+      <option value="sd">سنڌي (Sindhi)</option>
+      <option value="ks">कॉशुर (Kashmiri)</option>
+      <option value="mni">ꯃꯅꯤꯄꯨꯔ ꯂꯩꯕꯥꯡ (Manipuri)</option>
+      <option value="bho">भोजपुरी (Bhojpuri)</option>
+    </optgroup>
+  
+    <!-- European Languages -->
+    <optgroup label="🇪🇺 European Languages">
+      <option value="it">Italiano (Italian)</option>
+      <option value="nl">Nederlands (Dutch)</option>
+      <option value="sv">Svenska (Swedish)</option>
+      <option value="no">Norsk (Norwegian)</option>
+      <option value="da">Dansk (Danish)</option>
+      <option value="fi">Suomi (Finnish)</option>
+      <option value="el">Ελληνικά (Greek)</option>
+      <option value="pl">Polski (Polish)</option>
+      <option value="hu">Magyar (Hungarian)</option>
+      <option value="ro">Română (Romanian)</option>
+      <option value="cs">Čeština (Czech)</option>
+      <option value="sk">Slovenčina (Slovak)</option>
+      <option value="uk">Українська (Ukrainian)</option>
+    </optgroup>
+  
+    <!-- Middle Eastern Languages -->
+    <optgroup label="🇦🇪 Middle Eastern Languages">
+      <option value="fa">فارسی (Persian)</option>
+      <option value="he">עברית (Hebrew)</option>
+      <option value="tr">Türkçe (Turkish)</option>
+      <option value="ku">Kurdî (Kurdish)</option>
+      <option value="ps">پښتو (Pashto)</option>
+    </optgroup>
+  
+    <!-- East Asian Languages -->
+    <optgroup label="🇨🇳 East Asian Languages">
+      <option value="ko">한국어 (Korean)</option>
+      <option value="vi">Tiếng Việt (Vietnamese)</option>
+      <option value="th">ไทย (Thai)</option>
+      <option value="my">မြန်မာစာ (Burmese)</option>
+      <option value="km">ភាសាខ្មែរ (Khmer)</option>
+      <option value="id">Bahasa Indonesia (Indonesian)</option>
+      <option value="tl">Filipino (Tagalog)</option>
+      <option value="lo">ລາວ (Lao)</option>
+    </optgroup>
+  
+    <!-- Indigenous and Minority Languages -->
+    <optgroup label="🌎 Indigenous and Minority Languages">
+      <option value="qu">Runa Simi (Quechua)</option>
+      <option value="nv">Diné Bizaad (Navajo)</option>
+      <option value="iu">ᐃᓄᒃᑎᑐᑦ (Inuktitut)</option>
+      <option value="sm">Gagana Samoa (Samoan)</option>
+      <option value="mi">Te Reo Māori (Māori)</option>
+      <option value="haw">ʻŌlelo Hawaiʻi (Hawaiian)</option>
+      <option value="chr">ᏣᎳᎩ (Cherokee)</option>
+    </optgroup>
+  </select>
+
+  <!-- Feedback Form -->
+  <form id="feedback-form">
+    <label for="name">Name (Optional):</label>
+    <input type="text" id="name" placeholder="Your Name" />
+
+
+    <label for="category">Category:</label>
+    <select id="category">
+      <option value="">Select a Category</option>
+      <option value="Bug Report">Bug Report</option>
+      <option value="General">General</option>
+      <option value="Support">Support</option>
+      <option value="Feature Request">Feature Request</option>
+    </select>
+
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" placeholder="Enter your feedback (min 10 characters)" maxlength="200"></textarea>
+    <p id="char-count">200 characters remaining</p>
+
+    <label>
+       <p  id="anonymous-checkbox"><input type="checkbox" id="anonymous-checkboxid" />Submit Anonymously</p>
+    </label>
+    <br>
+     <!-- Voice Feedback -->
+    <button type="button" onclick="startVoiceInput()" id="voice-btn">🎤 Speak Feedback</button>
+    
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+ 
+  
+  <!-- Feedback Mood Board and Notifications -->
+  <div id="mood-board">Mood: 😊 😐 😞</div>
+  <div id="notifications"></div>
+
+  <!-- Feedback List and Leaderboard -->
+  <h3>Feedback Submissions</h3>
+  <div id="feedback-list"></div>
+<!-- 
+  <div id="leaderboard">
+    <h3>🏆 Top Contributors</h3>
+  </div> -->
+
+  <!-- Chart -->
+  <h3>📊 Feedback Sentiment Analysis</h3>
+  <canvas id="feedbackChart" ></canvas>
+   
+  <script src="script.js"></script>
+  <script src="chart.js"></script>
+</body>
+</html> 
+
+
+
+
