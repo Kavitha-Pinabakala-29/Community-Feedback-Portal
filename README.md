@@ -5,7 +5,8 @@ An advanced, interactive **feedback collection platform** with multi-language su
 Designed for communities, events, and organizations to easily collect, view, and analyze user feedback in real time.  
 
 ## 📜 License
-This project is licensed under the **MIT License** –[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
+This project is licensed under the **MIT License** 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
 
 ---
 
