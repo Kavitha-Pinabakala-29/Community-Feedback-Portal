@@ -7,6 +7,8 @@ Designed for communities, events, and organizations to easily collect, view, and
 ## 📜 License
 This project is licensed under the **MIT License** –[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
 
+---
+
 [![GIVE FEEDBACK](https://img.shields.io/badge/GIVE%20FEEDBACK-Click%20Here-blue?style=for-the-badge)](https://kavitha-pinabakala-29.github.io/Community-Feedback-Portal/)  
 
 ---
