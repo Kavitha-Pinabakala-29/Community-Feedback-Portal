@@ -30,3 +30,24 @@ screenshot.png # Project screenshot (add your own)
 
 ## 📸 Screenshot
 ![Enhanced Feedback Portal Screenshot](Screenshot.png)
+
+
+## 🛠️ Technologies Used
+- **HTML5** – Structure and form elements  
+- **CSS3** – Responsive design, dark mode, and theme colors  
+- **JavaScript (Vanilla)** – Form logic, validation, dark mode, color picker  
+- **Chart.js** – Sentiment analysis visualization  
+- **SpeechRecognition API** – Voice-to-text feedback input  
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License** – [View License](https://github.com/Kavitha-Pinabakala-29/Community-Feedback-Portal/blob/main/LICENSE)  
+
+---
+
+💡 **Future Enhancements**
+- Store feedback in a **database** (Firebase, MongoDB, etc.)  
+- Add **admin dashboard** for moderation and analytics  
+- Enable **email notifications** for new feedback  
+- Implement **leaderboard** for top contributors  
