@@ -29,10 +29,11 @@ chart.js # Chart.js configuration for sentiment analysis
 screenshot.png # Project screenshot (add your own)
 
 ## 📸 Screenshot
-<img src="Screenshot.png" alt="Enhanced Feedback Portal Screenshot" width="600"/>
-<img src="Screenshot1.png" alt="Enhanced Feedback Portal Screenshot" width="600"/>
-<img src="Screenshot2.png" alt="Enhanced Feedback Portal Screenshot" width="600"/>
-
+<div style="display: flex; justify-content: space-between;">
+<img src="Screenshot.png" alt="Enhanced Feedback Portal Screenshot" width="200"/>
+<img src="Screenshot1.png" alt="Enhanced Feedback Portal Screenshot" width="200"/>
+<img src="Screenshot2.png" alt="Enhanced Feedback Portal Screenshot" width="200"/>
+</div>
 
 ## 🛠️ Technologies Used
 - **HTML5** – Structure and form elements  
