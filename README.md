@@ -30,9 +30,9 @@ screenshot.png # Project screenshot (add your own)
 
 ## 📸 Screenshot
 <div style="display: flex; justify-content: space-between;">
-<img src="Screenshot.png" alt="Enhanced Feedback Portal Screenshot" width="200"/>
-<img src="Screenshot1.png" alt="Enhanced Feedback Portal Screenshot" width="300"/>
-<img src="Screenshot2.png" alt="Enhanced Feedback Portal Screenshot" width="300"/>
+<img src="Screenshot.png" alt="Enhanced Feedback Portal Screenshot" width="400"/>
+<img src="Screenshot1.png" alt="Enhanced Feedback Portal Screenshot" width="400"/>
+<img src="Screenshot2.png" alt="Enhanced Feedback Portal Screenshot" width="400"/>
 </div>
 
 ## 🛠️ Technologies Used
