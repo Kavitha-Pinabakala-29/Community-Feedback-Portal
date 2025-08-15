@@ -29,7 +29,7 @@ chart.js # Chart.js configuration for sentiment analysis
 screenshot.png # Project screenshot (add your own)
 
 ## 📸 Screenshot
-![Enhanced Feedback Portal Screenshot](Screenshot.png)
+![Enhanced Feedback Portal Screenshot](Screenshot.png)(Screenshot1.png)(Screenshot2.png)
 
 
 ## 🛠️ Technologies Used
